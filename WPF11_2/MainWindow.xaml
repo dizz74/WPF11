@@ -1,0 +1,89 @@
+﻿<Window x:Class="WPF11_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF11_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle HorizontalAlignment="Left" Height="36" Margin="402.7,305.1,0,0" VerticalAlignment="Top" Width="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF6B91C" Offset="0"/>
+                    <GradientStop Color="#FFFFF931" Offset="1"/>
+                    <GradientStop Color="#FFCB6227" Offset="0.799"/>
+                    <GradientStop Color="#FF9FA51F" Offset="0.652"/>
+                    <GradientStop Color="#FF6E4E14" Offset="0.438"/>
+                    <GradientStop Color="#FFD0FF00" Offset="0.254"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Path Data="M399.34946,268.34924 L437.86863,268.66723 C437.86863,268.66723 429.69239,238.20584 443.69986,228.50009 494.49988,193.30086 525.29929,94.803261 475.69894,73.303567 448.11766,61.348223 369.11713,64.001639 354.10051,73.303756 272.90114,123.60308 383.48761,221.07411 392.50017,230.90004 406.90009,246.59952 399.30013,257.67443 399.30013,268.87423" HorizontalAlignment="Left" Height="203.577" Margin="324.391,30,0,0" Stretch="Fill" VerticalAlignment="Top" Width="176.339">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2EBDD9" Offset="0"/>
+                    <GradientStop Color="#FF00FF28" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M432.7,267.6 L432.7,305.1" HorizontalAlignment="Left" Height="37.5" Margin="432.7,267.6,0,0" Stretch="Fill" VerticalAlignment="Top" Width="0" Stroke="Black">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2EBDD9" Offset="0"/>
+                    <GradientStop Color="#FF00FF28" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M432.7,305.1 L436.15,267.6" Fill="#FFCDB93F" HorizontalAlignment="Left" Height="38.5" Margin="432.7,267.6,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="4.45"/>
+        <Path Data="M402.7,305.1 L398.55,267.6" Fill="#FFCDB93F" HorizontalAlignment="Left" Height="38.5" Margin="398.55,267.6,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="5.15"/>
+        <Path Data="M398.55,277.15 L434.95,277.35" Fill="#FFCDB93F" HorizontalAlignment="Left" Height="1.2" Margin="398.55,277.15,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="37.4"/>
+        <Rectangle Fill="#FF9BCCFA" HorizontalAlignment="Left" Height="12.75" Margin="412.15,272.6,0,0" Stroke="Black" VerticalAlignment="Top" Width="11"/>
+        <Path Data="M398.55,267.6 L398.55,233.577" HorizontalAlignment="Left" Height="34.023" Margin="398.55,233.577,0,0" Stretch="Fill" VerticalAlignment="Top" Width="1" Stroke="#FFFFDA29">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2EBDD9" Offset="0"/>
+                    <GradientStop Color="#FF00FF28" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M398.55,267.6 L398.55,233.577" HorizontalAlignment="Left" Height="34.023" Margin="436.15,233.577,0,0" Stretch="Fill" VerticalAlignment="Top" Width="1" Stroke="#FFFFDA29">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2EBDD9" Offset="0"/>
+                    <GradientStop Color="#FF00FF28" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M414.45,271.95 C409.25,258.55 415.75001,257.25001 417.75001,247.05001 419.75001,236.85001 422.75047,271.85001 420.75028,271.65001" HorizontalAlignment="Left" Height="27.764" Margin="412.478,245.186,0,0" Stretch="Fill" Stroke="#FFFFDA29" VerticalAlignment="Top" Width="9.932">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD9FF00" Offset="0.01"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                    <GradientStop Color="#FFFFF700" Offset="0.428"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M41.6,373.6" HorizontalAlignment="Left" Height="1" Margin="41.6,373.6,0,0" Stretch="Fill" Stroke="#FFFFDA29" VerticalAlignment="Top" Width="1">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD9FF00" Offset="0.01"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                    <GradientStop Color="#FFFFF700" Offset="0.428"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M29.6,379.2 C37.61151,379.2 45.708206,378.4 53.6,378.4 53.6,394.22724 51.628936,389.84738 35.2,400.8 48.573554,400.8 46.843027,394.84622 56.8,382.4 64.354056,372.95743 61.171027,368.8 75.2,368.8 66.948176,368.8 53.644675,369.35636 59.2,388.8 62.627062,400.79472 78.649406,398.97648 92,365.6 93.322455,369.56736 92,373.97082 92,378.4 100.04421,378.4 109.46695,364.44406&#xD;&#xA;115.2,356.8 118.70822,370.83286 117.42141,385.56086 115.2,400 115.0488,400.98281 101.87339,424.03024 99.2,412 96.775957,401.09181 124.5093,395.75256 135.2,387.2 145.69035,378.80772 150.68714,370.28381 158.4,360 154.75674,359.27135 107.21422,377.6 132.8,377.6 149.33356,377.6 146.39224,379.22327 154.4,355.2 147.8274,368.34519 154.3521,384.67784 146.4,397.6 142.39103,404.11457&#xD;&#xA;145.91865,408.39613 137.6,408 135.98508,407.9231 131.95619,403.62191 137.6,400.8 145.67472,396.76264 151.33881,392.99178 156.8,384.8 162.59548,376.10678 162.4,378.93091 162.4,368.8 156.95382,375.33542 156.8,374.62463 156.8,383.2 167.87434,383.2 163.7224,394.15521 170.4,380.8 174.53833,372.52334 183.60839,374.60419 167.2,366.4 162.71988,364.15994 158.72199,373.48383 159.2,384&#xD;&#xA;159.50052,390.61149 168.92802,379.73759 177.6,372.8 179.55718,371.23426 185.28935,366.37361 188,368 191.44922,370.06953 189.6,373.96243 189.6,378.4 189.6,386.5273 185.6207,386.4 176,386.4 185.68028,386.4 188.12992,373.47008 196,365.6 191.37821,372.53269 192.8,380.78258 192.8,389.6 192.8,378.94807 195.75908,374.81169 211.2,370.4 202.37385,370.4 200.8,372.74323&#xD;&#xA;200.8,386.4 217.46564,386.4 215.64531,374.75469 227.2,363.2 223.06931,371.46138 220.73904,380.12192 216.8,388 216.8,372.92809 233.73717,380.91415 236.8,365.6 236.8,372.05743 233.45433,378.69133 230.4,384.8 227.26791,391.06418 251.49996,395.83332 261.6,399.2 254.7682,388.9523 265.37689,381.46934 269.6,368.8 272.56169,374.72337 270.4,383.38747 270.4,390.4 282.79804,390.4&#xD;&#xA;286.46192,382.76655 288.8,366.4 288.8,375.03052 288,383.42636 288,392 298.67471,392 300.39244,383.62268 304.8,370.4 304.8,380.32944 305.64482,390.13109 304,400 310.79949,395.46701 308.54572,376.8 320.8,376.8 315.06488,376.8 310.4,373.91755 310.4,385.6 310.4,397.70622 309.71298,387.70851 324.8,395.2" HorizontalAlignment="Left" Height="61.269" Margin="29.6,355.2,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="296.2"/>
+        <Path Data="M375.2,371.2 C374.63783,378.32081 373.6,385.63468 373.6,392.8 389.16192,389.3418 385.41619,384.67572 394.4,371.2 394.4,376.8867 393.6,382.26515 393.6,388 397.79206,388 407.29077,369.56974 416.8,366.4 416.8,376.56595 411.32747,378.90439 402.4,385.6 410.37933,381.61033 429.59028,365.14722 416,403.2 411.33182,416.2709 413.25666,415.2 395.2,415.2 398.55195,401.79222 400.21385,403.14284&#xD;&#xA;412,395.2" HorizontalAlignment="Left" Height="49.821" Margin="373.6,366.4,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="48.131"/>
+        <Path Data="M440.8,389.6 C443.83064,383.35504 445.9954,376.94406 448.8,370.4 448.8,375.9976 450.4,381.47806 450.4,387.2 455.11676,387.2 457.36314,373.15529 460.8,368 463.77945,376.93834 458.4,382.59174 458.4,391.2 468.39858,387.45053 482.4,381.71153 482.4,367.2 476.66703,367.2 476.47368,364.21193 472.8,369.6 470.72385,372.64501 467.66623,378.07683 472.8,382.4 482.39038,390.47611 484.34452,384.26278&#xD;&#xA;492,366.4 492,372 492,377.6 492,383.2 492,380.53333 492,377.86667 492,375.2 501.86036,375.2 502.4,382.47081 502.4,365.6 501.69086,369.1457 489.97012,393.22988 505.6,377.6 506.56624,381.46495 502.4066,387.46642 509.6,387.2 517.99836,386.88895 515.31847,388.65226 516.8,376.8 517.91404,367.88768 527.57241,363.03063 519.2,356.8 515.53939,354.07583&#xD;&#xA;513.6,355.6906 513.6,365.6 519.03985,365.6 513.19495,369.34006 518.4,362.4 521.63851,372.11552 521.46358,375.39537 527.2,384 527.2,383.2 527.2,382.4 527.2,381.6" HorizontalAlignment="Left" Height="36.581" Margin="440.8,355.619,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="87.4"/>
+        <Path Data="M553.4,363.2 C565.15631,364.76751 571.22475,365.18476 582.2,362.4" HorizontalAlignment="Left" Height="3.035" Margin="553.4,362.4,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="29.8"/>
+        <Path Data="M563.8,361.6 C568.61857,369.86041 567.93508,378.54559 569.4,388.8" HorizontalAlignment="Left" Height="28.2" Margin="563.8,361.6,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="6.6"/>
+        <Path Data="M579,380.8 C583.49425,375.80639 586.01688,372.67468 590.2,366.4 595.55664,358.36505 582.54074,368.03751 593.4,375.2" HorizontalAlignment="Left" Height="18.434" Margin="579,363.366,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="15.4"/>
+        <Path Data="M581.4,368.8 C586.94118,371.91691 582.05074,370.12201 587.8,371.2" HorizontalAlignment="Left" Height="3.4" Margin="581.4,368.8,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="7.4"/>
+        <Path Data="M597.4,360 C600.52894,371.12511 600.6,380.31938 600.6,392 600.6,382.54319 606.30363,377.62661 611,371.2" HorizontalAlignment="Left" Height="33" Margin="597.4,360,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="14.6"/>
+        <Path Data="M600.6,374.4 C606.17622,378.69834 611.92245,383.28322 617.4,388" HorizontalAlignment="Left" Height="14.6" Margin="600.6,374.4,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="17.8"/>
+        <Path Data="M648.6,360.8 C645.81589,364.70606 621.03311,399.8293 656.6,377.6 656.97249,377.36719 674.08457,362.93004 664.6,366.4 655.91411,369.57776 657.4,378.3189 657.4,390.4 667.36955,386.41218 674.44588,372 686.2,372 678.19926,372 671,371.04867 671,384.8 671,386.37577 678.93498,399.90567 683.8,392 703.91058,359.3203 659.64866,358.12233 707,344" HorizontalAlignment="Left" Height="51.461" Margin="637.611,344,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="70.389"/>
+        <Path Data="M692.6,382.4 C696.96542,382.27645 701.87996,383.21001 706.2,382.4 712.40439,381.23668 718.2,377.69457 718.2,368.8 707.27253,365.15751 697.4,370.50802 697.4,396.8 707.32145,396.8 714.38326,395.4513 723,392.8" HorizontalAlignment="Left" Height="30.023" Margin="692.6,367.777,0,0" Stretch="Fill" Stroke="Red" VerticalAlignment="Top" Width="31.4"/>
+
+    </Grid>
+</Window>
